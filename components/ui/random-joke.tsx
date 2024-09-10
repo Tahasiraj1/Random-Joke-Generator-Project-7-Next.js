@@ -35,7 +35,7 @@ export default function RandomJoke() {
                 😂 Random Joke 👈
                 </h1>
                 <div className='bg-gray-100 rounded-lg p-6 mb-6 text-gray-700 text-lg'>
-                    {joke || "leading..."}
+                    {joke || "loading..."}
                 </div>
                 <Button
                 onClick={fetchJoke}
