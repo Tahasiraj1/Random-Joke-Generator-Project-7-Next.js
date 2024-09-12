@@ -24,7 +24,7 @@ export default function RandomJoke() {
             setJoke(`${data.setup} - ${data.punchline}`);
         } catch (error) {
             console.error("Error fetching joke:", error);
-            setJoke("Failedto fetch joke. please try again.")
+            setJoke("Failed to fetch joke. please try again.")
         }
     }
 
